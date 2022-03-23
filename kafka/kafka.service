@@ -1,0 +1,17 @@
+[Unit]
+Description=Kafka Daemon
+Documentation=http://kafka.apache.org
+Requires=network.target
+After=network.target
+
+[Service]    
+Type=forking
+WorkingDirectory=/users/hsagar/kafka/bin/
+User=hsagar
+ExecStart=/users/hsagar/kafka/bin/kafka-server-start.sh -daemon /users/hsagar/config/server.properties
+ExecStop=/users/hsagar/kafka/bin/kafka-server-stop.sh
+TimeoutSec=30
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
