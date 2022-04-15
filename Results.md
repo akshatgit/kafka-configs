@@ -1,3 +1,4 @@
+```
 Ack = 1(trunk)
 14:15:28.067 [main] INFO - Pub rate  3864.2 msg/s /  3.8 MB/s | Cons rate  3863.8 msg/s /  3.8 MB/s | Backlog:  0.0 K | Pub Latency (ms) avg: 3892.9 - 50%: 3938.0 - 99%: 7063.8 - 99.9%: 7121.4 - Max: 7127.4
 14:15:38.197 [main] INFO - Pub rate  3701.0 msg/s /  3.6 MB/s | Cons rate  3700.8 msg/s /  3.6 MB/s | Backlog:  0.0 K | Pub Latency (ms) avg: 7974.5 - 50%: 8016.9 - 99%: 8278.3 - 99.9%: 8282.8 - Max: 8283.3
@@ -22,3 +23,4 @@ Ack = 1(nil-ext)
 14:24:55.918 [main] INFO - Pub rate  2891.2 msg/s /  2.8 MB/s | Cons rate  2891.0 msg/s /  2.8 MB/s | Backlog:  0.0 K | Pub Latency (ms) avg: 10391.6 - 50%: 10426.8 - 99%: 10501.2 - 99.9%: 10503.4 - Max:10504.4
 14:25:06.017 [main] INFO - Pub rate  3022.2 msg/s /  3.0 MB/s | Cons rate  3020.3 msg/s /  2.9 MB/s | Backlog:  0.0 K | Pub Latency (ms) avg: 10163.8 - 50%: 10124.4 - 99%: 10480.8 - 99.9%: 10491.1 - Max:10495.3
 14:25:16.237 [main] INFO - ----- Aggregated Pub Latency (ms) avg: 9234.0 - 50%: 10015.9 - 95%: 10447.4 - 99%: 10496.0 - 99.9%: 10501.4 - 99.99%: 10503.7 - Max: 10504.4
+```
