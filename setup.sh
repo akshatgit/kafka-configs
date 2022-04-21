@@ -20,6 +20,7 @@ sudo chown -R hsagar /data/kafka
 
 sudo cp zookeeper/zk.service /etc/systemd/system/zk.service
 sudo cp kafka/kafka.service /etc/systemd/system/kafka.service
+sudo systemctl daemon-reload
 
 
 cd /opt
