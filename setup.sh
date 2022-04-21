@@ -15,6 +15,7 @@ sudo mount /dev/sdb /data
 sudo mkdir -p /data/zookeeper
 sudo chown -R zk /data/zookeeper
 sudo mkdir -p /data/kafka
+sudo chown -R hsagar /data/kafka
 
 sudo cp zookeeper/zk.service /etc/systemd/system/zk.service
 
