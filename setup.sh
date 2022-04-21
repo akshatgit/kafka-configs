@@ -2,6 +2,7 @@
 
 sudo apt update
 sudo apt-get install -y openjdk-11-jre
+sudo apt-get install -y openjdk-11-jdk
 sudo apt install -y  maven
 
 sudo useradd zk -m
