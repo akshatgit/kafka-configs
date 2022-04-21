@@ -23,6 +23,6 @@ sudo wget https://dlcdn.apache.org/zookeeper/zookeeper-3.8.0/apache-zookeeper-3.
 sudo tar -xvf apache-zookeeper-3.8.0-bin.tar.gz
 sudo chown zk -R  apache-zookeeper-3.8.0-bin
 sudo ln -s apache-zookeeper-3.8.0-bin zookeeper
-sudo chown -R zk zookeeper
+sudo chown -R zk apache-zookeeper-3.8.0-bin
 
 sudo -u zk cp /users/hsagar/kafka-configs/zookeeper/zoo.cfg .
