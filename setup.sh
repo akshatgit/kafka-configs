@@ -25,4 +25,4 @@ sudo chown zk -R  apache-zookeeper-3.8.0-bin
 sudo ln -s apache-zookeeper-3.8.0-bin zookeeper
 sudo chown -R zk apache-zookeeper-3.8.0-bin
 
-sudo -u zk cp /users/hsagar/kafka-configs/zookeeper/zoo.cfg .
+sudo -u zk cp /users/hsagar/kafka-configs/zookeeper/zoo.cfg /opt/zookeeper/conf/
