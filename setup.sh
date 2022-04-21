@@ -19,6 +19,8 @@ sudo mkdir -p /data/kafka
 sudo chown -R hsagar /data/kafka
 
 sudo cp zookeeper/zk.service /etc/systemd/system/zk.service
+sudo cp kafka/kafka.service /etc/systemd/system/kafka.service
+
 
 cd /opt
 sudo wget https://dlcdn.apache.org/zookeeper/zookeeper-3.8.0/apache-zookeeper-3.8.0-bin.tar.gz
