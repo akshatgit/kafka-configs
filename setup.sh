@@ -16,7 +16,7 @@ sudo mount /dev/sdb /data
 sudo mkdir -p /data/zookeeper
 sudo chown -R zk /data/zookeeper
 sudo mkdir -p /data/kafka
-sudo chown -R hsagar /data/kafka
+sudo chown -R kkaushik /data/kafka
 
 sudo cp zookeeper/zk.service /etc/systemd/system/zk.service
 sudo cp kafka/kafka.service /etc/systemd/system/kafka.service
@@ -30,4 +30,4 @@ sudo chown zk -R  apache-zookeeper-3.8.0-bin
 sudo ln -s apache-zookeeper-3.8.0-bin zookeeper
 sudo chown -R zk apache-zookeeper-3.8.0-bin
 
-sudo -u zk cp /users/hsagar/kafka-configs/zookeeper/zoo.cfg /opt/zookeeper/conf/
+sudo -u zk cp /users/kkaushik/kafka-configs/zookeeper/zoo.cfg /opt/zookeeper/conf/
