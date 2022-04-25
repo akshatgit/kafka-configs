@@ -6,10 +6,10 @@ After=network.target
 
 [Service]    
 Type=forking
-WorkingDirectory=/users/hsagar/kafka/bin/
-User=hsagar
-ExecStart=/users/hsagar/kafka/bin/kafka-server-start.sh -daemon /users/hsagar/kafka-configs/kafka/server.properties
-ExecStop=/users/hsagar/kafka/bin/kafka-server-stop.sh
+WorkingDirectory=/users/kkaushik/kafka/bin/
+User=kkaushik
+ExecStart=/users/kkaushik/kafka/bin/kafka-server-start.sh -daemon /users/kkaushik/kafka-configs/kafka/server.properties
+ExecStop=/users/kkaushik/kafka/bin/kafka-server-stop.sh
 TimeoutSec=30
 Restart=on-failure
 
